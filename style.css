@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #f2f2f2;
+}
+section{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  display: flex;
+  height: 20px;
+  padding-top: 50px;
+}
+.btn{
+  padding: 8px 20px;
+  color:white;
+  border: 1px solid white;
+  font-size: 12px;
+  cursor: pointer;
+  background:black;
+  text-decoration: none;
+}
+
+main{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  display: flex;
+  height: 100vh;
+}
+.box-1{
+  background: #e28525;
+  padding: 35px 25px;
+  border-radius: 8px 0 0 8px;
+  width: 100%;
+  flex-basis: 40%;
+}
+.box-1 h2{
+  color: white;
+  padding-bottom: 18px;
+}
+.box-1 p{
+  color: white;
+  padding-bottom: 38px;
+  line-height: 20px;
+}
+.box-1 button{
+  padding: 8px 20px;
+  color:#e28525;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.box-1 button:hover{
+  padding: 8px 20px;
+  color:white;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  background:transparent;
+}
+.box-1 img{
+  width: 50px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+/*box 2 css  */
+
+.box-2{
+  background: #016972;
+  padding: 35px 25px;
+  width: 100%;
+  flex-basis: 40%;
+}
+.box-2 h2{
+  color: white;
+  padding-bottom: 18px;
+}
+.box-2 p{
+  color: white;
+  padding-bottom: 38px;
+  line-height: 20px;
+}
+.box-2 button{
+  padding: 8px 20px;
+  color:#016972;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.box-2 button:hover{
+  padding: 8px 20px;
+  color:white;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  background:transparent;
+}
+.box-2 img{
+  width: 50px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+/*box 3 css  */
+
+.box-3{
+  background: #00403f;
+  padding: 35px 25px;
+  width: 100%;
+  border-radius: 0 8px 8px 0;
+  flex-basis: 40%;
+}
+.box-3 h2{
+  color: white;
+  padding-bottom: 18px;
+}
+.box-3 p{
+  color: white;
+  padding-bottom: 38px;
+  line-height: 20px;
+}
+.box-3 button{
+  padding: 8px 20px;
+  color:#00403f;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.box-3 button:hover{
+  padding: 8px 20px;
+  color:white;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  background:transparent;
+}
+.box-3 img{
+  width: 50px;
+  height: 30px;
+  margin-bottom: 20px;
+}
