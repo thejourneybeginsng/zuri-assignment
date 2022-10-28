@@ -1,0 +1,186 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif; 
+  box-sizing: border-box;
+}
+.bg{
+  width: 100%;
+  background-color: orange;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.form-box{
+  height:480px;
+  width: 380px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.form-box-2{
+  height:800px;
+  width: 380px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.h2{
+  margin: 20px auto;
+  color: orangel;
+  padding: 5px;
+}
+.h2-2{
+  margin: 20px auto;
+  color: orangel;
+  padding: 5px;
+}
+
+
+.toggle{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline; none;
+  position: relative;
+}
+#btn{
+  top:0;
+  left:0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background-color: orange;
+  border-radius: 8px;
+  transition: .5s;
+}
+
+.input{
+  top: 140px;
+  position: absolute;
+  width: 100%;
+  transition: .5s;
+}
+.input-2{
+  top: 80px;
+  position: absolute;
+  width: 100%;
+  transition: .5s;
+}
+.input-field{
+  width:350px;
+  padding: 10px 10px;
+  margin: 5px 0;
+  border: 1px solid orange;
+  outline: none;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.option{
+  width:92%;
+  padding: 10px 10px;
+  margin: 5px 0;
+  border: 1px solid orange;
+  outline: none;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.option option{
+  font-size: 16px;
+  padding: 5px;
+}
+
+.submit-btn{
+  width: 80%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: orange;
+  border: 0;
+  outline: none;
+  border-radius: 8px;
+}
+
+.btn {
+  width: 75%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: black;
+  border: 0;
+  outline: none;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  }
+
+.checkbox{
+  margin: 30px 10px 30px 0;
+}
+.span{
+  color: orange;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+
+#login{
+  left: 10px;
+}
+#register{
+  left: 10px;
+}
+
+.signup{
+  padding: 10px;
+  margin: 10px auto;
+  cursor: pointer;
+  text-align:  center;
+}
+a:link{
+  color: orange; 
+  text-decoration: none;
+}
+a:visited{
+  color: orange;
+  text-decoration: none;
+}
+
+.h1{
+  margin: 35px auto;
+  padding: 10px;
+}
+.logout{
+  margin: 40px 10px;
+  padding: 10px 20px;
+  border: 2px solid orange;
+  border-radius: 8px;
+  color: black;
+}
+.sign{
+   width: 75%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: black;
+  border: 0;
+  outline: none;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
